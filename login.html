@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Document</title>
+  <title>Login</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body style="background: url('img/hh.jpg') no-repeat center center; background-size: cover;">
 
   <!-- Form đăng nhập -->
-  <div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+  <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
     <div class="card shadow p-4" style="max-width: 400px; width: 100%; background-color: rgba(0,0,0,0.85);">
       <h3 class="text-center mb-4 text-white">Đăng nhập</h3>
-      <form>
-        <!-- CMND/CCCD/Hộ chiếu -->
+
+      <form action="trangchu2.html">
         <div class="mb-3">
-          <label for="idNumber" class="form-label text-white">Số CMND/CCCD/Hộ Chiếu <span class="text-danger">*</span></label>
+          <label for="idNumber" class="form-label text-white">Số CMND/CCCD/Hộ Chiếu <span
+              class="text-danger">*</span></label>
           <input type="text" class="form-control" id="idNumber" placeholder="Nhập số giấy tờ tùy thân" required>
         </div>
-        <!-- Mật khẩu -->
         <div class="mb-3">
           <label for="password" class="form-label text-white">Mật khẩu <span class="text-danger">*</span></label>
           <div class="input-group">
@@ -30,21 +32,21 @@
             <span class="input-group-text"><i class="bi bi-eye"></i></span>
           </div>
         </div>
-        <!-- Quên mật khẩu -->
         <div class="mb-3 text-end">
           <a href="#" class="text-decoration-none text-info">Bạn quên mật khẩu?</a>
         </div>
-        <!-- Nút đăng nhập -->
         <div class="d-grid">
-          <button type="submit" class="btn btn-primary">Đăng nhập</button>
+          <button type="submit" class="btn btn-primary">
+            Đăng nhập</button>
         </div>
-        <!-- Đăng ký -->
+
         <div class="text-center mt-3 text-white">
           Chưa có tài khoản? <a href="#" class="text-decoration-none text-info">Đăng ký</a>
         </div>
       </form>
     </div>
   </div>
+
   <!-- Footer -->
   <footer class="bg-black text-white pt-4 pb-4">
     <div class="container">
@@ -52,29 +54,39 @@
         <!-- Liên hệ -->
         <div class="col-md-8">
           <h5 class="fw-bold">LIÊN HỆ</h5>
-          <div class="mt-3">
-            <p class="fw-bold">TT Hiến Máu </p>
-            <p><i class="bi bi-geo-alt-fill"></i> 106 Thiên Phước, Phường Tân Hòa, TP.HCM</p>
-            <p><i class="bi bi-geo-alt-fill"></i> 106 Thiên Phước, Phường Tân Hòa, TP.HCM</p>
-            <p><i class="bi bi-telephone-fill"></i> Liên hệ giờ hành chính</p>
-            <p><a href="tel:02839571342" class="text-white text-decoration-none">0123456789</a></p>
-            <p><a href="tel:02839571342" class="text-white text-decoration-none">0123456789</a></p>
+          <div class="row mt-3">
+            <!-- Cột 1 -->
+            <div class="col-md-6">
+              <p class="fw-bold">TT Hiến Máu </p>
+              <p><i class="bi bi-geo-alt-fill"></i> 106 Thiên Phước, Phường Tân Hòa, TP.HCM</p>
+              <p><i class="bi bi-geo-alt-fill"></i> 106 Thiên Phước, Phường Tân Hòa, TP.HCM</p>
+              <p><i class="bi bi-telephone-fill"></i> Liên hệ giờ hành chính</p>
+              <p><a href="tel:02839571342" class="text-white text-decoration-none">0123456789</a></p>
+              <p><a href="tel:02839571342" class="text-white text-decoration-none">0123456789</a></p>
+            </div>
+
+            <!-- Cột 2 -->
+            <div class="col-md-6">
+              <p class="fw-bold">Bệnh viện BTH</p>
+              <p><i class="bi bi-geo-alt-fill"></i> 106 Thiên Phước, Phường Tân Hòa, TP.HCM</p>
+              <p><i class="bi bi-geo-alt-fill"></i> 106 Thiên Phước, Phường Tân Hòa, TP.HCM</p>
+              <p><i class="bi bi-telephone-fill"></i> Liên hệ giờ hành chính</p>
+              <p><a href="tel:02839571342" class="text-white text-decoration-none">0123456789</a></p>
+              <p><a href="tel:02839571342" class="text-white text-decoration-none">0123456789</a></p>
+            </div>
           </div>
-          <div class="mt-3">
-            <p class="fw-bold">Bệnh viện BTH</p>
-            <p><i class="bi bi-geo-alt-fill"></i> 106 Thiên Phước, Phường Tân Hòa, TP.HCM</p>
-            <p><i class="bi bi-geo-alt-fill"></i> 106 Thiên Phước, Phường Tân Hòa, TP.HCM</p>
-            <p><i class="bi bi-telephone-fill"></i> Liên hệ giờ hành chính</p>
-            <p><a href="tel:02839571342" class="text-white text-decoration-none">0123456789</a></p>
-            <p><a href="tel:02839571342" class="text-white text-decoration-none">0123456789</a></p>
-          </div>
-          <div class="mt-3">
-            <p class="fw-bold">TT truyền máu Chợ Rẫy</p>
-            <p><i class="bi bi-geo-alt-fill"></i> 106 Thiên Phước, Phường Tân Hòa, TP.HCM</p>
-            <p><i class="bi bi-telephone-fill"></i> Liên hệ giờ hành chính</p>
-            <p><a href="tel:02839571342" class="text-white text-decoration-none">0123456789</a></p>
+
+          <!-- TT Truyền máu -->
+          <div class="row mt-3">
+            <div class="col-md-6">
+              <p class="fw-bold">TT truyền máu Chợ Rẫy</p>
+              <p><i class="bi bi-geo-alt-fill"></i> 106 Thiên Phước, Phường Tân Hòa, TP.HCM</p>
+              <p><i class="bi bi-telephone-fill"></i> Liên hệ giờ hành chính</p>
+              <p><a href="tel:02839571342" class="text-white text-decoration-none">0123456789</a></p>
+            </div>
           </div>
         </div>
+
         <!-- Hỗ trợ -->
         <div class="col-md-4">
           <h5 class="fw-bold">HỖ TRỢ</h5>
@@ -92,6 +104,6 @@
   </footer>
 
 
-  
 </body>
+
 </html>
